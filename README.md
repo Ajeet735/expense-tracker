@@ -1,28 +1,34 @@
 ExpenseTracker AI
 
-Track your expenses with AI-powered categorization and real-time insights.
+Smart expense tracking with AI-powered categorization and real-time spending insights.
 Built with Next.js 15, Tailwind CSS, and PostgreSQL.
 
-Features
+🚀 Features
 
-AI suggests categories & gives spending tips
+AI Suggestions – Automatic category tagging & spending tips
 
-Add, edit, and delete expenses
+Expense Management – Add, edit, and delete records easily
 
-Search, filter, and view charts
+Powerful Search & Filters – Find expenses instantly
 
-Light & dark mode
+Visual Analytics – Interactive charts & reports
 
-Secure login with Google, GitHub, or email
+Dark / Light Mode – Seamless theme switching
 
-Tech Stack
+Secure Auth – Google, GitHub, or email login
 
-Next.js • TypeScript • Tailwind • Chart.js • Prisma • Neon (PostgreSQL) • Clerk • OpenRouter API
+🛠 Tech Stack
 
-Setup:
+Frontend: Next.js 15, TypeScript, Tailwind CSS
+Backend: Prisma ORM, Neon (PostgreSQL)
+Auth: Clerk
+AI: OpenRouter API
+Charts: Chart.js
 
+📦 Installation
 git clone <repo-url>
+cd expense-tracker-ai
 npm install
-# Add .env values
+# Configure environment variables in `.env`
 npx prisma db push
 npm run dev
